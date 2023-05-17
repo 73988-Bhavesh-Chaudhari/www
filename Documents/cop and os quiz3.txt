@@ -1,0 +1,176 @@
+ 
+1. Which three framework activities are present in adaptive software development(ASD)?
+
+Analysis, design, coding
+Feasibility study, functional model iteration, implementation
+Speculation, collaboration, learning <==Ans
+Requirements gathering, adaptive cycle planning, iterative development
+ 
+2. What is the default return type of a method in Java language?
+void
+int
+short
+None of the above
+Correct answer
+None of the above <==Ans
+ 
+3. In operating system, each process has its own __________
+1/1
+address space and global variables
+open files
+pending alarms, signals and signal handlers
+all of the mentioned <==Ans
+ 
+ 
+4. Which of the following are the developer-specific requirement ?
+0/1
+Portability
+Maintainability
+Availability
+Both Portability and Maintainability
+Correct answer
+Both Portability and Maintainability
+ 
+5. Automatic type conversion in Java takes place when _____
+0/1
+two types are compatible and size of destination type is shorter than source type.
+two types are compatible and size of destination type is equal of source type.
+two types are compatible and size of destination type is larger than source type.
+all of the above
+Correct answer
+two types are compatible and size of destination type is larger than source type.
+ 
+6. SRS stands for?
+0/1
+System requirements specification
+System respond software
+Software respond system
+Software requirements specification
+Correct answer
+Software requirements specification
+ 
+7. What is the ready state of a process?
+1/1
+when process is scheduled to run after some execution <==Ans
+ 
+when process is unable to run until some task has been completed
+when process is using the CPU
+none of the mentioned
+ 
+8. Which system call can be used by a parent process to determine the termination of child process?
+0/1
+wait
+exit
+fork
+ 
+get
+Correct answer
+wait
+ 
+9. What is the use of final keyword in Java?
+1/1
+When a class is made final, a sublcass of it can not be created.
+When a method is final, it can not be overridden.
+When a variable is final, it can be assigned value only once.
+All of the above <==Ans
+ 
+ 
+10. What is the output of the below Java program with arrays? String[] colors = {"RED";"YELLOW";"WHITE"};System.out.print(colors[2]);
+1/1
+RED
+YELLOW
+WHITE <==Ans
+Compiler error
+ 
+ 
+11. A set of processes is deadlock if __________
+1/1
+each process is blocked and will remain so forever <==Ans
+ 
+each process is terminated
+all processes are trying to kill each other
+none of the mentioned
+ 
+12. What is a shell script?
+0/1
+group of commands
+ 
+a file containing special symbols
+a file containing a series of commands
+group of functions
+Correct answer
+a file containing a series of commands
+ 
+13. The major goal of requirement determination phase of information system development is _____?
+
+Determine whether information is needed by an organization
+Determine what information is needed by an organization <==Ans
+Determine when information is to be given
+Determine how information needed by an organization can be provided
+ 
+14. Which of the following is not necessary to apply agility to a software process?
+0/1
+Eliminate the use of project planning and testing
+Only essential work products are produced.
+Process allows team to streamline tasks <==Ans
+ 
+Uses incremental product delivery strategy.
+Correct answer
+Eliminate the use of project planning and testing
+ 
+15. Which of the following command is used to print the lines between 5 and 10, both inclusive?
+0/1
+cat filename | head | tail -6
+cat filename | tail -5 | head -10
+ 
+cat filename | head | tail -5
+cat filename | tail +5 | head
+Correct answer
+cat filename | head | tail -6
+ 
+16. The test levels are performed in which of the following order?
+0/1
+Unit, Integration, System, Acceptance
+It is based on the nature of the project
+Unit, Integration, Acceptance, System
+Unit, System, Integration, Acceptance
+ 
+Correct answer
+It is based on the nature of the project
+ 
+17. Choose the correct way of initializing a multidimensional array below.
+0/1
+int[][] code = {{1,2},{3,4,5}};
+int[2][] code = {{1,2},{3,4,5}};
+ 
+int[][] code={1,2,3,4,5};
+D) All
+Correct answer
+int[][] code = {{1,2},{3,4,5}};
+ 
+18. Byte code is the result of?
+1/1
+Compiling a Java file <==Ans
+ 
+Compiling a Class file
+Interpreting a Java File
+Interpreting a Class file
+ 
+19. What is the valid data type for variable "a" to print "Hello World"?                                                                    switch(a){   System.out.println("Hello World");}
+0/1
+int and float
+ 
+byte and short
+char and long
+byte and char <==Ans
+Correct answer
+byte and char
+ 
+20. In operating system, a thread is also called ___________
+1/1
+a) Light Weight Process(LWP) <==Ans
+ 
+b) Heavy Weight Process(HWP)
+
+c) Process
+d   	) None of the mentioned

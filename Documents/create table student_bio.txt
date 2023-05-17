@@ -1,0 +1,21 @@
+ create table student_bio
+     (
+     sid int,
+	 course varchar(20),
+     sname varchar(20),
+     class varchar(20),
+    
+	foreign key  (course,sid) references student_marks (course,sid)
+     
+	 on delete set null
+	on update cascade	 
+);
+
+create table std_Marks(
+sid int,
+course varchar(20),
+marks int,
+primary key(sid,course))
+
+
+ foreign key  (sid,course) references student_marks (sid,course)

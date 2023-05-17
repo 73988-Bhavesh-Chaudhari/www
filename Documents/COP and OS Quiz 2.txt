@@ -1,0 +1,199 @@
+ 
+class Program
+
+{
+
+            public static void main(String as[])
+
+            {
+
+                        System.out.println(“Hello”);
+
+}
+
+public static void main(String….args)
+
+            {
+
+                        System.out.println(“Welcome to Java”);
+
+}
+
+}
+
+A. Hello
+B. Welcome to java
+C. Run time error
+D. Compile time error <==Ans
+ 
+ 
+To handle streams and buffers in java language, mostly  __________ data type is used.
+
+A. short
+B. byte <==Ans
+C. int
+D. float
+ 
+Java assignment operator has priority more than _________
+
+A. Assignment and Lambda operator
+B. Logical and bitwise operator
+C. Arithmetic operator
+D. Logical operator
+Correct answer
+A. Assignment and Lambda operator
+ 
+class HelloWorld {
+
+    public static void main(String[] args) {
+
+     String name1="FOX", name2="DOG";
+
+if(name1 == "FOX")
+
+  System.out.print("FOX ");
+
+  System.out.println("GOOD");                                                      
+
+if(name2 == "CAT")
+
+  System.out.println("DINO");
+
+    }
+
+}
+
+A. FOX DINO
+B. FOX GOOD
+C. Compiler error
+D. FOX GOOD DINO
+Correct answer
+B. FOX GOOD
+ 
+Which of the following modifier, we can not use for constructor? 
+A. public
+B. static <==Ans
+C. private
+D. protected
+ 
+If compiler looks two same varargs methods then it will throw the below command
+A. The method is ambiguous <==Ans
+B. The method is difficult to choose
+C. The method signature is not correct
+D. None of these
+ 
+public class Test {
+
+    public static void main(String[] args) {
+        int[][][] num = new int[3][][];
+        int i, j;
+        num[0] = new int[4][];
+        num[1] = new int[2][];
+        num[2] = new int[5][];
+        for (i = 0; i < num.length; i++) {
+            for (j = 0; j < num[i].length; j++) {
+                num[i][j] = new int[i + j + 1];
+                System.out.println("size = " + num[i][j].length);
+            }
+        }
+    }
+}
+A. It will throw an exception
+B. Compiler error
+C. It will produce the expected output
+D. None of these
+Correct answer
+C. It will produce the expected output
+ 
+If you want to pass an array to a method, the method receives _____________.
+A. A copy of the first element
+B. The reference of an array <==Ans
+C. A copy of the array
+D. The length of the array
+ 
+If any process fails, operating system will write all information in_________
+A. New file
+B. Executable file
+C. Log file <==Ans
+D. Doc file
+ 
+The ________ will enable interpretation of commands the user enters from their Console.
+A. cmd
+B. shell
+C. LAN
+D. UI
+Correct answer
+B. shell
+ 
+The statement x=’expr 7/3’ will store which of the value in x?
+A. 0
+B. 1
+C. 2 <==Ans
+D. 2.5
+ 
+In ______________ algorithm, Once a process is executed for a given time period, it is preempted and other process executes for a given time period.
+
+A. First Come First Serve scheduling
+B. Shorted Job First Scheduling
+C. Priority Based Scheduling
+D. Round Robbin Scheduling
+Correct answer
+D. Round Robbin Scheduling
+ 
+Normally, after a fork() call, the child and parent process will not perform similar task. If the same task is need to be run, then for each fork() call it will run ______________, where n is the number of times fork() is called.
+
+A. 2 power n times <==Ans
+B. 2 power n/2 times
+C. 1 power n/3 times
+D. 1 power n*n times
+ 
+Turnaround time=____________________.
+A. Burst Time + Waiting time / Exit time – Arrival time
+B. Burst Time - Waiting time / Exit time + Arrival time
+C. Burst Time + Exit time / Waiting time – Arrival time
+D. Arrival Time - Waiting time / Exit time – Burst time
+Correct answer
+A. Burst Time + Waiting time / Exit time – Arrival time
+ 
+The thread has only a __________ in the memory and they share the _______ with the parent process.
+A. heap, stack
+B. stack, heap
+C. method area, stack
+D. heap, method area
+Correct answer
+B. stack, heap
+ 
+Main memory is divided into small fixed size blocks of physical memory called _______.
+A. Page
+B. swapping
+C. Node
+D. Frame <==Ans
+ 
+ 
+Dirty bit for a page in a page table ___________
+A. allows only read on a page
+B. helps to maintain LRU information
+C. Helps to avoid unnecessary writes on a page devices
+D. Allow illegal access of page
+Correct answer
+C. Helps to avoid unnecessary writes on a page devices
+ 
+Select the incorrect statement about virtual memory                                                                     1.	It increase the degree of  multiprogramming                                                                                    2.	Less I/O or loading and unloading for individual user process                                                      3. 	Reduces the context switching overhead                                                                                         4.	Does not allow address space to be shared by several process
+A. 1,4,3 only
+B. 3,2 only
+C. 3,4 only <==Ans
+D. 2,3,4 only
+ 
+Which of the following is not a necessary condition for the deadlock
+A. Mutual Exclusion
+B. Hold and wait
+C. Circular wait
+D. preemption <==Ans
+ 
+ 
+Messages sent by a process:
+
+A. have to be of a fixed size
+B. have to be a variable size
+C. can be fixed or variable sized <==Ans
+D. None of these

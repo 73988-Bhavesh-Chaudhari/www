@@ -1,0 +1,197 @@
+1) A relational database consists of a collection of
+*
+1/1
+a) Tables<==Ans
+ 
+b) Fields
+c) Records
+d) Keys
+ 
+2)A ________ in a table represents a relationship among a set of values.
+*
+0/1
+a) Column
+b) Key
+ 
+c) Row
+d) Entry
+Correct answer
+c) Row
+ 
+3)The term _______ is used to refer to a row.
+*
+1/1
+a) Attribute
+b) Tuple <==Ans
+ 
+c) Field
+d) Instance
+ 
+4)The term attribute refers to a ___________ of a table.
+*
+1/1
+a) Record
+b) Column <==Ans
+ 
+c) Tuple
+d) Key
+ 
+5)For each attribute of a relation, there is a set of permitted values, called the ________ of that attribute.
+*
+1/1
+a) Domain <==Ans
+ 
+b) Relation
+c) Set
+d) Schema
+ 
+6)Database __________ which is the logical design of the database, and the database _______ which is a snapshot of the data in the database at a given instant in time.
+*
+0/1
+a) Instance, Schema
+ 
+b) Relation, Schema
+c) Relation, Domain
+d) Schema, Instance
+Correct answer
+d) Schema, Instance
+ 
+7)A domain is atomic if elements of the domain are considered to be ____________ units.
+*
+1/1
+a) Different
+b) Indivisbile<-Ans
+ 
+c) Constant
+d) Divisible
+ 
+8)The tuples of the relations can be of ________ order.
+*
+0/1
+a) Any
+b) Same
+ 
+c) Sorted
+d) Constant
+Correct answer
+a) Any
+ 
+9) Which one of the following is a set of one or more attributes taken collectively to uniquely identify a record?
+*
+0/1
+a) Candidate key
+b) Sub key
+c) Super key
+d) Foreign key
+ 
+Correct answer
+c) Super key
+ 
+10)Consider attributes ID, CITY and NAME. Which one of this can be considered as a super key?
+*
+1/1
+a) NAME
+b) ID <==Ans
+ 
+c) CITY
+d) CITY, ID
+ 
+11)The subset of a super key is a candidate key under what condition?
+*
+0/1
+a) No proper subset is a super key <==Ans
+b) All subsets are super keys
+c) Subset is a super key
+ 
+d) Each subset is a super key
+Correct answer
+a) No proper subset is a super key
+ 
+12)A _____ is a property of the entire relation, rather than of the individual tuples in which each tuple is unique.
+*
+1/1
+a) Rows
+b) Key <==Ans
+ 
+c) Attribute
+d) Fields
+ 
+13)Which one of the following attribute can be taken as a primary key?
+*
+1/1
+a) Name
+b) Street
+c) Id <==Ans
+ 
+d) Department
+ 
+14)An attribute in a relation is a foreign key if the _______ key from one relation is used as an attribute in that relation.
+*
+1/1
+a) Candidate
+b) Primary <==Ans
+ 
+c) Super
+d) Sub
+ 
+15) The relation with the attribute which is the primary key is referenced in another relation. The relation which has the attribute as a primary key is called ______________
+*
+0/1
+a) Referential relation
+b) Referencing relation
+ 
+c) Referenced relation
+d) Referred relation
+Correct answer
+c) Referenced relation
+ 
+16)The ______ is the one in which the primary key of one relation is used as a normal attribute in another relation.
+*
+1/1
+a) Referential relation
+b) Referencing relation <==Ans
+c) Referenced relation
+ 
+d) Referred relation
+ 
+17) A _________ integrity constraint requires that the values appearing in specified attributes of any tuple in the referencing relation also appear in specified attributes of at least one tuple in the referenced relation.
+*
+0/1
+a) Referential <==Ans
+b) Referencing
+c) Specific
+ 
+d) Primary
+Correct answer
+a) Referential
+ 
+18)Using which language can a user request information from a database?
+*
+1/1
+a) Query <==Ans
+ 
+b) Relational
+c) Structural
+d) Compiler
+ 
+19) Which one of the following is a procedural language?
+*
+0/1
+a) Domain relational calculus
+b) Tuple relational calculus
+ 
+c) Relational algebra
+d) Query language
+Correct answer
+c) Relational algebra
+ 
+20)The_____ operation allows the combining of two relations by merging pairs of tuples, one from each relation, into a single tuple.
+*
+0/1
+a) Select
+ 
+b) Join
+c) Union
+d) Intersection
+Correct answer
+b) Join

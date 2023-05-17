@@ -1,0 +1,175 @@
+
+1)The result which operation contains all pairs of tuples from the two relations, regardless of whether their attribute values match.
+
+a) Join
+b) Cartesian product
+c) Intersection
+d) Set difference
+ 
+2)The _______operation performs a set union of two “similarly structured” tables
+a) Union
+b) Join
+c) Product
+d) Intersect
+ 
+3)The most commonly used operation in relational algebra for projecting a set of tuple from a relation is
+*
+1/1
+a) Join
+b) Projection
+c) Select
+ 
+d) Union
+ 
+4)The _______ operator takes the results of two queries and returns only rows that appear in both result sets.
+*
+1/1
+a) Union
+b) Intersect
+ 
+c) Difference
+d) Projection
+ 
+5)A ________ is a pictorial depiction of the schema of a database that shows the relations in the database, their attributes, and primary keys and foreign keys.
+*
+0/1
+a) Schema diagram
+b) Relational algebra
+c) Database diagram
+d) Schema flow
+ 
+ 
+6)The _________ provides a set of operations that take one or more relations as input and return a relation as an output.
+*
+1/1
+a) Schematic representation
+b) Relational algebra
+ 
+c) Scheme diagram
+d) Relation flow
+ 
+7)Which one of the following is used to define the structure of the relation, deleting relations and relating schemas?
+*
+1/1
+a) DML(Data Manipulation Langauge)
+b) DDL(Data Definition Langauge)
+ 
+c) Query
+d) Relational Schema
+ 
+8) Which one of the following provides the ability to query information from the database and to insert tuples into, delete tuples from, and modify tuples in the database?
+*
+1/1
+a) DML(Data Manipulation Langauge)
+ 
+b) DDL(Data Definition Langauge)
+c) Query
+d) Relational Schema
+ 
+9)CREATE TABLE employee (name VARCHAR, id INTEGER);          What type of statement is this?
+*
+0/1
+a) DML
+ 
+b) DDL
+c) View
+d) Integrity constraint
+ 
+10)The basic data type char(n) is a _____ length character string and varchar(n) is _____ length character.
+*
+1/1
+a) Fixed, equal
+b) Equal, variable
+c) Fixed, variable
+ 
+d) Variable, equal
+ 
+11)An attribute A of datatype varchar(20) has the value “Avi”. The attribute B of datatype char(20) has value ”Reed”. Here attribute A has ____ spaces and attribute B has ____ spaces.
+*
+0/1
+a) 3, 20
+b) 20, 4
+c) 20, 20
+d) 3, 4
+ 
+ 
+12)To remove a relation from an SQL database, we use the ______ command.
+*
+1/1
+a) Delete
+b) Purge
+c) Remove
+d) Drop table
+ 
+ 
+13)Updates that violate __________ are disallowed.
+*
+1/1
+a) Integrity constraints
+ 
+b) Transaction control
+c) Authorization
+d) DDL constraints
+ 
+14)The ______ clause allows us to select only those rows in the result relation of the ____ clause that satisfy a specified predicate.
+*
+0/1
+a) Where, from
+b) From, select
+c) Select, from
+ 
+d) From, where
+ 
+15)The ________ clause is used to list the attributes desired in the result of a query.
+*
+0/1
+a) Where
+ 
+b) Select
+c) From
+d) Distinct
+ 
+16)Which of the following statements contains an error?
+*
+1/1
+a) Select * from emp where empid = 10003;
+b) Select empid from emp where empid = 10006;
+c) Select empid from emp;
+d) Select empid where empid = 1009 and lastname = ‘GELLER’;
+ 
+ 
+17)In the given query which of the keyword has to be inserted?                                                                                     INSERT INTO employee _____ (1002,Joey,2000);
+*
+1/1
+a) Table
+b) Values
+ 
+c) Relation
+d) Field
+ 
+18)SELECT * FROM employee WHERE salary>10000 AND dept_id=101;                                                                       Which of the following fields are displayed as output?
+*
+1/1
+a) Salary, dept_id
+b) Employee
+c) Salary
+d) All the field of employee relation
+ 
+ 
+19)Here which of the following displays the unique values of the column?                                                                            SELECT ________ dept_name    FROM instructor;
+*
+1/1
+a) All
+b) From
+c) Distinct
+ 
+d) Name
+ 
+20)The query given below will not give an error. Which one of the following has to be replaced to get the desired output?                                                                                      SELECT ID, name, dept name, salary * 1.1   WHERE instructor;
+*
+0/1
+a) Salary*1.1
+ 
+b) ID
+c) Where
+d) Instructor
